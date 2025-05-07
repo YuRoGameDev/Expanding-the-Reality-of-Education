@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Level Select.unity
+    guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/MathLevel/Scenes/MainLvl.unity
+    guid: 3252c610bf3a9894aa420e4cff09b1dc
+  - enabled: 1
+    path: Assets/PhysicsLevel/Scenes/MainLevel.unity
+    guid: b86ac649a0d46c84795d80fee9346a2c
+  - enabled: 1
+    path: Assets/MoonLevel/Scenes/MoonMap.unity
+    guid: 59f2dc5423d03604b80f14f2ad9a30e1
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 48374f78919430e46823dc1c7fabb0c0, type: 2}
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 547c7d7e99c09ac44ae9edbda073bd57, type: 3}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: a12b8393c87d78f4889ae245e80a44e7, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: c43fe637a2ecd9e4196b91c51f69936d, type: 2}
+  m_UseUCBPForAssetBundles: 0

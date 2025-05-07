@@ -1,0 +1,579 @@
+{
+    "name": "XRInput",
+    "maps": [
+        {
+            "name": "Head",
+            "id": "fc46a53f-d2cf-4143-8775-b3f7c8aa3160",
+            "actions": [
+                {
+                    "name": "HeadPos",
+                    "type": "Value",
+                    "id": "fee938d8-ef6a-496f-bc71-9490fdd74cd7",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "HeadRot",
+                    "type": "Value",
+                    "id": "0bf61e1d-19f4-483a-a4bb-4653d7174cfe",
+                    "expectedControlType": "Quaternion",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "TrackingState",
+                    "type": "Value",
+                    "id": "09bf4a8d-18eb-41a4-8bb6-c3a13543974d",
+                    "expectedControlType": "Integer",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "99176efb-1749-41c9-bc0b-0ae397838b01",
+                    "path": "<XRHMD>/devicePosition",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "VR",
+                    "action": "HeadPos",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7f8e3cb8-7b18-4bea-add9-c80abc0524d3",
+                    "path": "<XRHMD>/deviceRotation",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "VR",
+                    "action": "HeadRot",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0b72eedb-f2f5-45e5-89e7-ca801acdb09a",
+                    "path": "<XRHMD>/trackingState",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TrackingState",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "LeftController",
+            "id": "83582605-b0bc-4017-86de-fd886fde5d9f",
+            "actions": [
+                {
+                    "name": "ControllerPosLeft",
+                    "type": "Value",
+                    "id": "30fe6e78-2790-4f3b-b96b-479e96cde8d9",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "ControllerRotLeft",
+                    "type": "Value",
+                    "id": "80355150-3569-4624-afd6-64e4c2c4ee68",
+                    "expectedControlType": "Quaternion",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "LeftTrackpad",
+                    "type": "Value",
+                    "id": "24f14b8d-bc57-4a6f-a736-663bef8e7d54",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "TriggerPress",
+                    "type": "Value",
+                    "id": "b8cefc45-bde2-4be7-89b0-07cc6fec5b9f",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "GripPress",
+                    "type": "Value",
+                    "id": "1641e0c3-c413-4bed-af49-058e5d7b7f83",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Touchpad",
+                    "type": "Button",
+                    "id": "6f4b6f0d-a055-4b7a-9835-896c3620e6d1",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Velocity",
+                    "type": "Value",
+                    "id": "1d5d5a4e-2265-4c3a-a2f6-4a2efee8ca36",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "AngularVelocity",
+                    "type": "Value",
+                    "id": "0528735e-8e28-40ca-a842-452334b6229f",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "LeftTracking",
+                    "type": "Value",
+                    "id": "4102e4f7-89d5-403f-9636-7e743ac03c31",
+                    "expectedControlType": "Integer",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "TouchpadPress",
+                    "type": "Button",
+                    "id": "09c3b4d4-a18d-4d9b-81c6-ef55e130521d",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "ec4c7f1b-1352-456c-8eb4-377176baff5d",
+                    "path": "<OculusTouchController>{LeftHand}/devicePosition",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "VR",
+                    "action": "ControllerPosLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4e07d8ee-5e5c-482a-ba34-f22e2326f790",
+                    "path": "<OculusTouchController>{LeftHand}/deviceRotation",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "VR",
+                    "action": "ControllerRotLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "26fa824d-2086-4dcd-8bbf-60fa3b06aa74",
+                    "path": "<XRController>{LeftHand}/thumbstick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "VR",
+                    "action": "LeftTrackpad",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c94d29bc-ef9d-42a2-9074-9d94baa38086",
+                    "path": "<OculusTouchController>{LeftHand}/trigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "VR",
+                    "action": "TriggerPress",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "919bdb49-3155-47d5-a7de-444ae3aa7ba9",
+                    "path": "<OculusTouchController>{LeftHand}/grip",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "VR",
+                    "action": "GripPress",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5b042797-4722-4d47-9e73-3fd6a723a9a7",
+                    "path": "<OculusTouchController>{LeftHand}/primaryTouched",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "VR",
+                    "action": "Touchpad",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "423cf6c4-1bb4-4222-8e8f-4430a896514c",
+                    "path": "<OculusTouchController>{LeftHand}/secondaryTouched",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "VR",
+                    "action": "Touchpad",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "36568e7b-7de3-4ab0-aac3-dd6e3a0a6175",
+                    "path": "<OculusTouchController>{LeftHand}/thumbstickTouched",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "VR",
+                    "action": "Touchpad",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "81240a35-083f-4b67-8884-7de7366a1027",
+                    "path": "<OculusTouchController>{LeftHand}/deviceVelocity",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "VR",
+                    "action": "Velocity",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d5dad7d0-87a5-4680-bfee-1b40fbb91d95",
+                    "path": "<OculusTouchController>{LeftHand}/deviceAngularVelocity",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "VR",
+                    "action": "AngularVelocity",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c258a992-3932-40b4-946b-c58a01f8103b",
+                    "path": "<XRController>{LeftHand}/trackingState",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftTracking",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "41b8d7a9-cd70-48c6-ac8f-85d0b25d3779",
+                    "path": "<OculusTouchController>{LeftHand}/thumbstickClicked",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TouchpadPress",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "RightController",
+            "id": "7208c29c-8c4c-4094-a2c9-4da7122f730b",
+            "actions": [
+                {
+                    "name": "ControllerPosRight",
+                    "type": "Value",
+                    "id": "593a382b-5e45-46e9-99c9-08a6de96aa28",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "ControllerRotRight",
+                    "type": "Value",
+                    "id": "1b7fd307-4035-41c0-bb0e-e80059fa07b5",
+                    "expectedControlType": "Quaternion",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "RightTrackpad",
+                    "type": "Value",
+                    "id": "cd5774e9-7419-4936-b863-37f360d647e6",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "TriggerPress",
+                    "type": "Value",
+                    "id": "e2fcb2dd-7d08-4e46-b0da-b490401b9f93",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "GripPress",
+                    "type": "Value",
+                    "id": "f9c512fe-c710-43c5-8332-94ed5fc30750",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Touchpad",
+                    "type": "Button",
+                    "id": "990ea8a6-b8e8-418e-a67c-f8376677830d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Velocity",
+                    "type": "Value",
+                    "id": "f3cb532c-eb59-4c3c-acb2-53590d867871",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "AngularVelocity",
+                    "type": "Value",
+                    "id": "a3f41e61-c396-4e96-be41-51d3e49ae4b8",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "RightTracking",
+                    "type": "Value",
+                    "id": "e0859051-7a32-4214-b4b4-8052b2d541e4",
+                    "expectedControlType": "Integer",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "TouchpadPress",
+                    "type": "Button",
+                    "id": "7a0dc7cf-8f58-4368-9f8a-c9ea83666a75",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "ea35f4b9-50ec-4d7a-94c2-5f7c2bbe2f39",
+                    "path": "<OculusTouchController>{RightHand}/devicePosition",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "VR",
+                    "action": "ControllerPosRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0a160d8f-64a2-45c0-b807-c970a441facb",
+                    "path": "<OculusTouchController>{RightHand}/deviceRotation",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "VR",
+                    "action": "ControllerRotRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e8601912-0996-41f4-8e77-83497c184b5a",
+                    "path": "<XRController>{RightHand}/thumbstick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "VR",
+                    "action": "RightTrackpad",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a5e8e6fe-4c4c-4e63-97b2-a975990c893b",
+                    "path": "<OculusTouchController>{RightHand}/trigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "VR",
+                    "action": "TriggerPress",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d97025f4-9f63-4d24-a103-2a3dd418f107",
+                    "path": "<OculusTouchController>{RightHand}/grip",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "VR",
+                    "action": "GripPress",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "25073305-f1d3-4c87-ae51-782dc08a232e",
+                    "path": "<OculusTouchController>{RightHand}/primaryTouched",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "VR",
+                    "action": "Touchpad",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a9adebf9-65b6-433a-9748-52e9c9c90c69",
+                    "path": "<OculusTouchController>{RightHand}/secondaryTouched",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "VR",
+                    "action": "Touchpad",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2f1c9677-2b9c-4c20-853d-9b737dc1a1c3",
+                    "path": "<OculusTouchController>{RightHand}/thumbstickTouched",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "VR",
+                    "action": "Touchpad",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7e3c396a-675d-49aa-ba29-b8b63082bd66",
+                    "path": "<OculusTouchController>{RightHand}/deviceVelocity",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "VR",
+                    "action": "Velocity",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "247fa44d-dcab-4821-9bdd-73247d498501",
+                    "path": "<OculusTouchController>{RightHand}/deviceVelocity",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "VR",
+                    "action": "AngularVelocity",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fd233138-4913-4cad-a9ca-2b67e8148fe8",
+                    "path": "<XRController>{RightHand}/trackingState",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RightTracking",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "28d8474c-5240-488b-b1c7-75c5f6a7bfc1",
+                    "path": "<OculusTouchController>{RightHand}/thumbstickClicked",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TouchpadPress",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "General",
+            "id": "45432251-eaa0-4b99-913c-7d3932b8ab3d",
+            "actions": [
+                {
+                    "name": "Menu",
+                    "type": "Value",
+                    "id": "ee98180c-3ea2-4c2e-b136-0ecbad551f77",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "edabf647-4a63-4618-a48a-f894626d2c86",
+                    "path": "<XRController>/secondaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "VR",
+                    "action": "Menu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "VR",
+            "bindingGroup": "VR",
+            "devices": [
+                {
+                    "devicePath": "<OculusHMD>",
+                    "isOptional": false,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<OculusTouchController>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
