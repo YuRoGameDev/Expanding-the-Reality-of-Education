@@ -1,4 +1,4 @@
-# Expanding-the-Reality-of-Education
+# Expanding the Reality of Education
 
 ![Thesis Poster](https://github.com/user-attachments/assets/436a83f9-9855-41e6-9b3e-cfe4c6989ed1)
 
