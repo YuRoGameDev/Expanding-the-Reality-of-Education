@@ -1,6 +1,6 @@
 # Expanding the Reality of Education
 
-![Thesis Poster](https://github.com/user-attachments/assets/436a83f9-9855-41e6-9b3e-cfe4c6989ed1)
+![Thesis Poster](https://github.com/user-attachments/assets/3f9834ae-1a2c-40b2-9653-74a4f6013acf)
 
 This is the creative portion for my Undergraduate Honor's Research paper on the use of Virtual Reality within an educational setting. 
 
